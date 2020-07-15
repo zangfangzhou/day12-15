@@ -1,0 +1,165 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.d1{
+	width: 100px;
+	height: 100%;
+	background-color: #1D2634;
+	float: left;
+	position: fixed;
+}
+.context1{
+	width: 60px;
+	height: 300px;
+	/* border: 1px solid white; */
+	margin: 20px auto 0px;
+	position: fixed;
+	left: 20px;
+}
+.con1{
+	width: 60px;
+	height: 60px;
+	/* border: 1px solid white; */
+	margin-bottom: 15px;
+}
+.con1:nth-of-type(1) img{
+	position: relative;
+	top:20px;
+	left: 20px;
+}
+.con1:nth-of-type(2) img{
+	position: relative;
+	top:12px;
+	left: 18px;
+}
+.con1:nth-of-type(3) img{
+	position: relative;
+	top:16px;
+	left: 14px;
+}
+.con1:nth-of-type(4) img{
+	position: relative;
+	top:20px;
+	left: 20px;
+}
+.con1:nth-of-type(1){
+	background: url(../img/blue.png);
+}
+.con1:nth-of-type(2){
+	background: url(../img/purple.png);
+}
+.con1:nth-of-type(3){
+	background: url(../img/orange.png);
+}
+.con1:nth-of-type(4){
+	background: url(../img/cavity.png);
+}
+.context2{
+	width: 50px;
+	height: 20px;
+	/* border: 1px solid white; */
+	position: fixed;
+	bottom: 30px;
+	left: 28px;
+	display: flex;
+	justify-content: space-between;
+}
+.con2{
+	width: 20px;
+	height: 20px;
+	/* border: 1px solid white; */
+}
+.d2{
+	width: 300px;
+	height: 100%;
+	background-color: #232E3F;
+	float: left;
+	position: fixed;
+	left: 100px;
+}
+.con5{
+	width: 200px;
+	height: 220px;
+	border: 1px solid white;
+	margin: 30px auto;
+	
+}
+.con6{
+	color: white;
+	margin-left: 30px;
+	position: fixed;
+	bottom: 30px;
+}
+.d3{
+	width: auto;
+	height: 100px;
+	margin-left: 400px;
+	border-bottom: 5px solid #f0f0f0;
+}
+.d3 h2{
+	margin: 0;
+	padding: 0;
+	padding-left: 30PX;
+	padding-top: 30PX;
+}
+.d3 .son3{
+	width: 300px;
+	height: 100px;
+	border: 1px solid black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: lightgray;
+}
+.d3 .son4{
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin-top: 20px;
+}
+.son3 p{
+	margin-left: 70px;
+}
+.son3 p:nth-of-type(1){
+	color: blue;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.son3 p:nth-of-type(2){
+	color: gray;
+	margin-top: 0;
+}
+.d4{
+	width: auto;
+	height: 100%;
+	margin-left: 400px;
+	display: flex;
+}
+.con3{
+	width: 500px;
+	min-width: 500px;
+	border: 1px solid black;
+}
+.con3 .son1{
+	width: 500px;
+	height: 150px;
+	border: 1px solid black;
+}
+#img1{
+	position: relative;
+	bottom: 30px;
+	left: 35px;
+}
+.con4{
+	flex: 1;
+	border: 1px solid black;
+}
+.con4 .son2{
+	width: 100%;
+	height: 300px;
+	border: 1px solid black;
+}
